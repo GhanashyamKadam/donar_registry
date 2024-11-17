@@ -1,0 +1,15 @@
+[package]
+name = "donar_registry"
+version = "1.0.0"
+authors = []
+
+[addresses]
+DonarRegistry = '0xba828afbc2d535fdb4a014bc411a216e3c6597f6c910c2d186fdc8fee31b6328'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
